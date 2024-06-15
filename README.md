@@ -22,3 +22,13 @@ The WGAN was built on top of the DCGAN and changes the loss function calculation
 ---
 
 At the end of the experiment it was found out that it generally requires less training epochs for DCGAN to generate appropriate images, whereas it requires more epochs for WGAN to get close to the image quality of the DCGAN. This is mostly related to the fact that generator is not updated on every iteration in WGAN, so although it might require more epochs, but the computational time is close to the DCGAN.
+
+---
+
+**WGAN Results 15 epochs**
+![sample_results_wgan](sample_results_wgan.png)
+
+---
+
+**DCGAN Results 10 epochs**
+![sample_results_dcgan](sample_results_dcgan.png)
